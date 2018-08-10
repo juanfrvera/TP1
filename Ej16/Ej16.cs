@@ -15,7 +15,7 @@ namespace Ej16
             string cadenaUno = Console.ReadLine();
             Console.Write("Ingrese la segunda cadena: ");
             string cadenaDos = Console.ReadLine();
-            if (cadenaUno.Length == cadenaDos.Length)
+            if ((cadenaUno.Length == cadenaDos.Length) && (cadenaUno != cadenaDos))
             {
                 int[] verificador = new int[cadenaUno.Length];
                 int i = 0;
