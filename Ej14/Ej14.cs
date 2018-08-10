@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ej14
 {
-    class Program
+    class Ej14
     {
 
-        static int suma(int[] array)
+        static int Suma(int[] array)
         {
             int sum = 0;
             foreach (int numero in array)
@@ -20,13 +20,13 @@ namespace Ej14
 
         }
 
-        static float promedio(int[] array)
+        static float Promedio(int[] array)
         {
-            float prom = Convert.ToSingle(suma(array)) /30;
+            float prom = Convert.ToSingle(Suma(array)) /30;
             return(prom);
         }
 
-        static int minimo(int[] array)
+        static int Minimo(int[] array)
         {
            int min = array[0];
                 for (int i = 1; i <= 29; i++)
@@ -41,7 +41,7 @@ namespace Ej14
 
         }
 
-        static int maximo(int[] array)
+        static int Maximo(int[] array)
         {
             int max = array[0];
             for (int i = 1; i <= 29; i++)
@@ -64,10 +64,10 @@ namespace Ej14
                 arreglo[i] = rnd.Next(-5001,5001);
             Console.WriteLine(arreglo[i]); }
             Console.WriteLine();
-            Console.WriteLine("El valor minimo es: {0}",minimo(arreglo));
-            Console.WriteLine("El valor maximo es: {0}",maximo(arreglo));
-            Console.WriteLine("La sumatoria es: {0}",suma(arreglo));
-            Console.WriteLine("El promedio es: {0}",promedio(arreglo));
+            Console.WriteLine("El valor minimo es: {0}",Minimo(arreglo));
+            Console.WriteLine("El valor maximo es: {0}",Maximo(arreglo));
+            Console.WriteLine("La sumatoria es: {0}",Suma(arreglo));
+            Console.WriteLine("El promedio es: {0}",Promedio(arreglo));
             Console.ReadKey();
         }
     }

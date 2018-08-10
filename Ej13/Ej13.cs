@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ej13
 {
-    class Program
+    class Ej13
     {
         static void Main(string[] args)
 

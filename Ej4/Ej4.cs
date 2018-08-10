@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ej5
+namespace Ej4
 {
-    class Program
+    class Ej4
     {
         static void Main(string[] args)
         {
@@ -15,11 +15,11 @@ namespace Ej5
             Console.Write("Ingrese limite superior: ");
             int limSup = Convert.ToInt32(Console.ReadLine());
             int suma = 0;
-            do
+            while (limInf <= limSup)
             {
                 suma += limInf;
                 limInf++;
-            } while (limInf <= limSup);
+            }
             Console.WriteLine("La suma es {0}", suma);
             Console.ReadKey();
         }

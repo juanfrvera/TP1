@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ej15
 {
-    class Program
+    class Ej15
     {
-        public const int cotaInferior = -4000;
-        public const int cotaSuperior = 4500;
+        public const int COTAINFERIOR = -4000;
+        public const int COTASUPERIOR = 4500;
         static void Main(string[] args)
         {
             Random rnd = new Random();
@@ -21,7 +21,7 @@ namespace Ej15
             Array.Sort(arreglo);
             foreach(int numero in arreglo)
             {
-                if ((numero < cotaSuperior) && (numero > cotaInferior))
+                if ((numero < COTASUPERIOR) && (numero > COTAINFERIOR))
                 {
                     Console.WriteLine(numero);
                 }

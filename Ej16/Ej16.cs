@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Ej16
 {
-    class Program
+    class Ej16
     {
         static void Main(string[] args)
         {
@@ -20,7 +20,6 @@ namespace ConsoleApp1
                 int[] verificador = new int[cadenaUno.Length];
                 int i = 0;
                 int j = 0;
-                int h = 0;
                 for (i = 0; i < cadenaUno.Length; i++)
                 {
                     for (j = 0; j < cadenaDos.Length; j++)
@@ -34,26 +33,26 @@ namespace ConsoleApp1
                 }
                 int control = 0;
 
-                for (h = 0; h < verificador.Length; h++)
+                for (i = 0; i < verificador.Length; i++)
                 {
-                    if (verificador[h] == 1)
+                    if (verificador[i] == 1)
                     {
                         control += 1;
                     }
                 }
                 if (control == cadenaUno.Length)
                 {
-                    Console.WriteLine("Exito");
+                    Console.WriteLine("Las cadenas son anagramas");
 
                 }
                 else
                 {
-                    Console.WriteLine("Fracaso");
+                    Console.WriteLine("Las cadenas no son anagramas");
                 }
             }
             else
             {
-                Console.WriteLine("Fracaso");
+                Console.WriteLine("Las cadenas no son anagramas");
             }
             Console.ReadKey();
         }
