@@ -21,7 +21,7 @@ namespace Ej9
                     {
                         control = false;
                     }
-                    h++;
+                    divisor++;
                 }
                 if (control == true)
                 {
