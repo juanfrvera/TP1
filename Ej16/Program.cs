@@ -50,9 +50,12 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine("Fracaso");
                 }
-                Console.ReadKey();
             }
-
+            else
+            {
+                Console.WriteLine("Fracaso");
+            }
+            Console.ReadKey();
         }
     }
 }

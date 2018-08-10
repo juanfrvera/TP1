@@ -9,8 +9,11 @@ namespace Ej13
     class Program
     {
         static void Main(string[] args)
-        { string[] cadenas = new string[5];
-            for (Byte i=4; i>=0; i--)
+
+        {
+            int i = 0;
+            string[] cadenas = new string[5];
+            for ( i=4; i>=0; i--)
             {
                 cadenas[i] = "";
                 for (int j = args[i].Length - 1; j >= 0; j--)
@@ -20,15 +23,30 @@ namespace Ej13
 
             }
             string buffer;
-            int i = 0;
+            i = 0;
             while (i < 4)
             {
-                if (String.Compare(cadenas[i], cadenas[i + 1]) = 1)
+                int orden = String.Compare(cadenas[i], cadenas[i + 1], true);
+                if (orden == -1)
                 {
-                    
+                    buffer = cadenas[i];
+                    cadenas[i] = cadenas[i + 1];
+                    cadenas[i + 1] = buffer;
+                    i = 0;
                 }
+                else
+                {
+                    i++;
+                }
+                    
+                
+            }
+            for (i=0;i<=cadenas.Length-1;i++)
+            {
+                Console.WriteLine(cadenas[i]);
             }
 
+            Console.ReadKey();
                 
         }
     }
