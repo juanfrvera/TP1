@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0708E5B4-8AF2-4ECB-A572-DB4E17FB91C9}</ProjectGuid>
+    <ProjectGuid>{817EB69B-B713-4E34-B17E-93C568230FF6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ej3</RootNamespace>
-    <AssemblyName>Ej3</AssemblyName>
+    <RootNamespace>Ej15</RootNamespace>
+    <AssemblyName>Ej15</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ej3.cs" />
+    <Compile Include="Ej15.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

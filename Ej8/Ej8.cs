@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 
 namespace Ej8
 {
-    class Program
+    class Ej8
     {
         static void Main(string[] args)
         {
-            ulong f1 = 0;
-            ulong f2 = 1;
-            ulong f3 = 0;
+            ulong fibo1 = 0;
+            ulong fibo2 = 1;
+            ulong fiboSig = 0;
             Console.WriteLine("Primeros 50 elementos de la serie de Fibonacci: ");
-            Console.WriteLine(f1);
-            Console.WriteLine(f2);
+            Console.WriteLine(fibo1);
+            Console.WriteLine(fibo2);
             for (int i = 3; i<=50; i++)
             {
-                f3 = f1 + f2;
-                f1 = f2;
-                f2 = f3;
-                Console.WriteLine(f3);
+                fiboSig = fibo1 + fibo2;
+                fibo1 = fibo2;
+                fibo2 = fiboSig;
+                Console.WriteLine(fiboSig);
             }
             Console.ReadKey();
         }

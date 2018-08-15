@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace Ej9
 {
-    class Program
+    class Ej9
     {
         static void Main(string[] args)
         {
             UInt32 suma = 0;
             for (UInt16 i = 35; i <= 1977; i+=2)
             {
-                UInt16 n = 0;
-                UInt16 h = 3;
-                while (n == 0 && h <= Convert.ToUInt16(i / 2))
+                bool control = true;
+                UInt16 divisor = 3;
+                while (control == true && divisor <= Convert.ToUInt16(i / 2))
                 {
-                    if (i % h == 0)
+                    if (i % divisor == 0)
                     {
-                        n++;
+                        control = false;
                     }
-                    h++;
+                    divisor++;
                 }
-                if (n == 0)
+                if (control == true)
                 {
                     suma += i;
                 }
