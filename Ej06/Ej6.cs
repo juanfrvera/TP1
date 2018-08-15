@@ -13,12 +13,12 @@ namespace Ej6
         static void Main(string[] args)
         {
             int suma = 0;
-            for (byte i = 1; i <= 100; i++)
+            for (byte i = 1; i <= 100; i+=2)
             {
-                if(i % 2 == 1)
                     suma += i;
             }
             Console.WriteLine("La suma es {0}", suma);
+            Console.WriteLine("El primedio es {0}", suma/50);
             Console.ReadKey();
         }
     }

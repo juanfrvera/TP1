@@ -16,10 +16,12 @@ namespace Ej10
         static void Main(string[] args)
         {
             UInt16 i = INICIO;
-            while(DateTime.DaysInMonth(i, 2) != 29)
+            //buscamos el primer año bisiesto
+            while (DateTime.DaysInMonth(i, 2) != 29)
             {
                 i++;
             }
+            //listamos el resto
             while(i <= FINAL)
             {
                 Console.WriteLine(i);
