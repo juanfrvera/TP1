@@ -20,25 +20,27 @@ namespace Ej16
 
             if ((cadenaUno.Length == cadenaDos.Length) && (cadenaUno != cadenaDos))
             {
-                //Creamos un arreglo que va a tener 1s en las posiciones de los caracteres de la cadena original
-                //que se encuentren en la segunda cadena
+                //Creamos un arreglo que llenaremos con 1s por cada caracter en comun entre las cadenas
                 int[] verificador = new int[cadenaUno.Length];
                 int i = 0;
                 int j = 0;
+                //recorremos ambas cadenas a verificar si poseen caracteres en comun
                 for (i = 0; i < cadenaUno.Length; i++)
-                {
+                { 
                     for (j = 0; j < cadenaDos.Length; j++)
                     {
-                        Console.WriteLine(cadenaDos);
-
+                        //Si existe el caracter en comun marcamos en nuestro arreglo 
+                        //y removemos dicho caracter para que no se encuentre nuevamente
                         if (cadenaUno[i] == cadenaDos[j])
                         {
                             verificador[i] = 1;
-                            //Removemos el caracter de esta cadena para que no se encuentre nuevamente
                             cadenaDos = cadenaDos.Remove(j, 1);
                         }
                     }
                 }
+
+                //Creamos un control que contara los elementos del verificador que sean 1. En caso que esta cantidad
+                //sea igual a la longitud de la cadenaUno, entonces las cadenas son anagramas.
                 int control = 0;
 
                 for (i = 0; i < verificador.Length; i++)
