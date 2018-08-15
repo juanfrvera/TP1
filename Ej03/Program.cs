@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ej3
 {
-    class Ej3
+    class Program
     {
         static void Main(string[] args)
         {
@@ -20,7 +20,6 @@ namespace Ej3
                 suma += i;
             }
             Console.WriteLine("La suma es {0}", suma);
-            Console.WriteLine("El primedio es {0}", (limInf + limSup) / 2);
             Console.ReadKey();
         }
     }
