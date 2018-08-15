@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ej9
 {
+    /*9. Desarrolle una aplicación que calcule y escriba por consola la suma de todos los
+    números primos comprendidos entre 35 y 1977, incluyendo a estos valores.*/
     class Ej9
     {
         static void Main(string[] args)

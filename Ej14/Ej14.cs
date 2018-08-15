@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ej14
 {
+    /*14. Desarrolle una aplicación que defina un arreglo de 30 números reales de doble
+    precisión, lo inicialice con valores aleatorios y calcule e imprima en pantalla el
+    mínimo, el máximo, la suma y el promedio de los elementos del arreglo.*/
     class Ej14
     {
 

@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ej3
 {
+    /*3. Desarrolle una aplicación que imprima por pantalla la suma de los números de un
+    límite inferior (por ejemplo 5) hasta el límite superior (ejemplo 100). Muestre por
+    pantalla el promedio de los números ingresados. Los límites deben ser constantes.
+    Utilice la sentencia for.    */
     class Ej3
     {
         static void Main(string[] args)

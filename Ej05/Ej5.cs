@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ej5
 {
+    /*5. Desarrolle la misma aplicación del ejercicio 3 pero utilice la estructura do while*/
     class Ej5
     {
         static void Main(string[] args)

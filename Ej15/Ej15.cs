@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ej15
 {
+    /*15. Desarrolle una aplicación que defina un arreglo de 50 números enteros, lo inicialice
+    y escriba ordenados ascendentemente por consola todos los números del arreglo que
+    estén comprendidos entre dos números definidos a través de constantes.*/
     class Ej15
     {
         public const int COTAINFERIOR = -4000;

@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Ej16
 {
+    /*16. Desarrolle una aplicación que permita ingresar dos cadenas de caracteres por
+    teclado, determine si son anagramas y escriba el resultado de dicha comprobación
+    por consola.*/
     class Ej16
     {
         static void Main(string[] args)
         {
-            //Una cadena A es anagrama de B, si A != B, A tiene los mismos caracteres que B, A.Length == B.Length
+            //Una cadena A es anagrama de B, si A != B, A tiene los mismos caracteres que B (desordenados), A.Length == B.Length
 
 
             Console.Write("Ingrese la primer cadena: ");

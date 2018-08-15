@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ej6
 {
+    /*6. Desarrolle una aplicación que imprima por pantalla la suma de los números impares
+    de 1 a 100. Imprima el promedio también.*/
     class Ej6
     {
         static void Main(string[] args)

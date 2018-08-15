@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ej2
 {
+    /*2. Desarrolle la misma aplicación del ejercicio 1 pero utilizando la estructura
+    switch.*/
     class Ej2
     {
         static String Dos(Byte numero)

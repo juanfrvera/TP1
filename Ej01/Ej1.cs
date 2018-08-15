@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    /*1. Desarrolle una aplicación que imprima por pantalla “UNO”, “DOS”, “TRES”...
+    “NUEVE”, “OTROS” si la variable numero es igual a 1, 2, 3 … 9 ó mayor
+    respectivamente.Utilice la estructura if-else para resolver el ejercicio.*/
+
     class Ej1
     {
         static String Uno(Byte numero)

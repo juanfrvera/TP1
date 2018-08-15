@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ej8
 {
+    /*8. Desarrolle una aplicación que escriba por consola los primeros 50 elementos de la
+    serie de Fibonacci.*/
     class Ej8
     {
         static void Main(string[] args)

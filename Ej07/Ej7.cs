@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ej7
 {
+    /*7. Desarrolle una aplicación que calcule aproximadamente el número π con la fórmula
+    de Lebniz. Determine el criterio de fin de cálculo, que puede ser la cantidad de términos utilizados. La
+    API de C# posee una constante con el valor de dicho número (Math.PI), compare el
+    resultado del cálculo con la constante en términos porcentuales.*/
     class Ej7
     {
         static void Main(string[] args)
